@@ -13,7 +13,7 @@ void startFibonacci(int amount)
     fibonacci(amount, 0, 1);
 }
 
-int main(void)
+void main(void)
 {
     int value;
     scanf("%d", &value);
