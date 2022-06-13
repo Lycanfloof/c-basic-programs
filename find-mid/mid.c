@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // Interesting. It seems like the array doesn't get copied in the execution of a function.
+// Update: It indeed doesn't. The function copies the POINTER you pass as an argument.
 
 int *findMid(int a[], int n)
 {
