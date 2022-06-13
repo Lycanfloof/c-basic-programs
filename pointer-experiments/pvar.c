@@ -3,6 +3,7 @@
 void main(void)
 {
     int a[2] = {1, 2};
+    int(*o)[2] = &a;
     int *p = a;
 
     int b[2][3] = {1, 2, 3, 4};
