@@ -2,6 +2,7 @@
 
 void main(void)
 {
+    // You can use char to store numbers from 0 to 255.
     char c = 'A';
     int i = 'A';
 

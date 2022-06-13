@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // Here I experiment with what happens if you don't assign a value to a variable before printing it.
+// It basically prints garbage if they're local variables. If they're global variables they print 0.
 
 int e;
 int f;
