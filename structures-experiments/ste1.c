@@ -44,7 +44,7 @@ void main(void)
     printf("%d %d %d %d %d\n", s1.a, s1.b, s2.a, s2.b, ss[2].b);
 
     ste1 *p = &s1;
-    printf("%p\n", p);
+    printf("\n%p\n", p);
     printf("%p\n", &(*p).a);
     printf("%p\n", &(*p).b);
 
@@ -52,11 +52,11 @@ void main(void)
     printf("%p\n", &(*(p + 1)).a);
     printf("%p\n", &(*(p + 1)).b);
 
-    // 257 in binary is 00000001 00000001.
-    ste2 t1 = {.a = 257};
+    // 258 in binary is 00000001 00000010.
+    ste2 t1 = {.a = 258};
 
-    // The first value is 257 and the second value is 1.
-    // Since a is an integer, it can print the whole number (00000001 00000001).
-    // b is a char, so it only prints a part of the number (00000001).
-    printf("%d %d", t1.a, t1.b);
+    // The first value is 258 and the second value is 2.
+    // Since a is an integer, it can print the whole number (00000001 00000010).
+    // b is a char, so it only prints a part of the number (00000010).
+    printf("\n%d %d", t1.a, t1.b);
 }
