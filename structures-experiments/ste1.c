@@ -17,7 +17,7 @@ typedef struct ste1
     int b;
 } ste1;
 
-// This is a structure which allocates it's variables in the same memory location.
+// This is a structure which allocates its variables in the same memory location.
 // This means that if I assign a value in a, b will change as well.
 // Useful to store various types of objects using the same structure.
 typedef union ste2

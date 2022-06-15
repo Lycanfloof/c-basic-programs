@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-// While initializing arrays you go from left to right (outside -> inside).
+// While initializing arrays, you read from left to right (outside -> inside).
+// In a 2D array, this means rows go first, then columns.
 
 void main(void)
 {

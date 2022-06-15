@@ -21,7 +21,7 @@ void main(void)
     void (*p)(char) = example;
     p('C');
 
-    // Array of functions. You can call them by retriving their values.
+    // Array of functions. You can call them by retrieving their values.
     void (*array[2])(void) = {a, b};
     array[0]();
     array[1]();
