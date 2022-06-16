@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// The method copies the values of its arguments into the stack.
+// The function copies the values of its arguments into the stack.
 // You can check this by seeing each pointer's address in memory (they're different).
 
 void example(int *a)

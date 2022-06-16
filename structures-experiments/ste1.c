@@ -28,6 +28,7 @@ typedef union ste2
 
 // You cannot use method overloading in C.
 // Defining a method with the purpose of instantiating a structure doesn't seem really useful.
+// Specially because there are not methods in C. There are FUNCTIONS.
 /*
 ste1 createSte1(int a, int b)
 {
